@@ -60,5 +60,29 @@ namespace FirstConsoleProj
 
             string text = num.ToString();
         }
+
+
+        /* CONSTANTS */
+
+        public static void functionConstants() 
+        {
+            const int CONSTNUM = 45; //Always both declare and initialize in the same sentence
+                                     //All capital letters
+
+            Console.WriteLine("The value of the constant above is: {0}", CONSTNUM);
+            //Another way to write variables on the console
+        }
+
+        public static void GetAreaCircle() 
+        {
+            const double PI = 3.1416;
+
+            Console.WriteLine("Insert the radius: ");
+            double radius = Convert.ToDouble(Console.ReadLine());
+
+            double areaCircle = Math.Pow(radius, 2) * PI;
+            
+            Console.WriteLine("The area of your circle is: {0}.", Math.Round(areaCircle, 4));
+        }
     }
 }
