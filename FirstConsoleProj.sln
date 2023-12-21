@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleProj", "FirstConsoleProj\FirstConsoleProj.csproj", "{95A32170-CD96-47D6-AF37-5464D294696B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsConsoleApp", "MethodsConsoleApp\MethodsConsoleApp.csproj", "{32C5A3BF-B70C-4855-96F2-FA7CD321DEC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodsConsoleApp", "MethodsConsoleApp\MethodsConsoleApp.csproj", "{32C5A3BF-B70C-4855-96F2-FA7CD321DEC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplesOOP", "ExamplesOOP\ExamplesOOP.csproj", "{17AE2379-DEA6-431F-B3C1-AD7D19C510ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{32C5A3BF-B70C-4855-96F2-FA7CD321DEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32C5A3BF-B70C-4855-96F2-FA7CD321DEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32C5A3BF-B70C-4855-96F2-FA7CD321DEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17AE2379-DEA6-431F-B3C1-AD7D19C510ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AE2379-DEA6-431F-B3C1-AD7D19C510ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AE2379-DEA6-431F-B3C1-AD7D19C510ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AE2379-DEA6-431F-B3C1-AD7D19C510ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
